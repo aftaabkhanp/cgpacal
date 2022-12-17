@@ -1,0 +1,57 @@
+.QuickCgpaCalculator {
+    align-items: center;
+    justify-content: center;
+}
+
+.form-area-quick {
+    flex-direction: column;
+    background-color: white;
+    margin: 45px;
+    padding: 40px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+}
+
+.form-area-quick input {
+    background-color: rgb(190, 190, 255);
+    border: 0;
+    border-radius: 4px;
+    padding: 0.8rem;
+    width: 250px;
+    margin: 15px;
+    font-size: 1.2rem;
+}
+
+.QuickCgpaCalculator .result {
+    width: 40%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 620px) {
+    .QuickCgpaCalculator {
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 100vw;
+        margin: 0;
+    }
+    .form-area-quick {
+        width: 90%;
+        margin-top: 30px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .QuickCgpaCalculator .result {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+
+    }
+}

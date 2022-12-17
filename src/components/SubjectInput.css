@@ -1,0 +1,32 @@
+.SubjectInput {
+    width: 80%;
+}
+
+.SubjectInput .tag {
+    margin-right: 5px;
+}
+
+.SubjectInput select {
+    background-color: rgb(225, 225, 255);
+    border: 0;
+    border-radius: 4px;
+    padding: 0.8rem;
+    width: 212px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.SubjectInput:first-child {
+   margin-top: 25px;
+  }
+  .SubjectInput:last-child {
+    margin-bottom: 25px;
+   }
+
+   @media only screen and (max-width: 600px) {
+
+    .SubjectInput select{
+        padding: 0.8rem;
+        width: 250px;
+        margin: 15px;
+    }
+   }

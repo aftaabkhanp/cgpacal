@@ -1,0 +1,64 @@
+.NavBar {
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo img {
+    width: 60px;
+}
+
+.logo h2 {
+    margin-right: 5px;
+}
+
+#navigation {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto 20px;
+}
+
+#navigation ul {
+    list-style: none;
+}
+
+#navigation ul li {
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+
+#navigation ul li:hover:not(.active) {
+    color: rgb(140, 140, 205);
+}
+
+#nav-links {
+    width: 40%;
+}
+
+.active {
+    color: #55f;
+    font-size: 1.26rem;
+}
+
+@media only screen and (max-width: 620px) {
+    #navigation {
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #nav-links {
+        width: 100%;
+        margin: 10px;
+        justify-content: center;
+    }
+}
