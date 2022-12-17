@@ -4,7 +4,9 @@
     width: 100vw;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
 }
-
+.logo{
+    margin: 5px;
+}
 .logo:hover {
     cursor: pointer;
 }
