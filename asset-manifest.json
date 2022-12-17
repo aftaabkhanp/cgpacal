@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cgpacal/static/css/main.e9439495.css",
+    "main.js": "/cgpacal/static/js/main.3a74b380.js",
+    "index.html": "/cgpacal/index.html",
+    "main.e9439495.css.map": "/cgpacal/static/css/main.e9439495.css.map",
+    "main.3a74b380.js.map": "/cgpacal/static/js/main.3a74b380.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9439495.css",
+    "static/js/main.3a74b380.js"
+  ]
+}
